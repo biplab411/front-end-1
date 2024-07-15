@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+  
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 40px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <form>
+      <input type="text" placeholder="Name" />
+      <input type="text" placeholder="Email" />
+      <button type="submit">Add User</button>
+      
+    </form>    
+    
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>A</td>
+          <td>hbcd@</td>
+          <td>Delete</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>B</td>
+          <td>uiig@</td>
+          <td>Delete</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>C</td>
+          <td>kryu@</td>
+          <td>Delete</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+  </div>
+</body>
+</html>
